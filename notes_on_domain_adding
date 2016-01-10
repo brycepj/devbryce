@@ -1,0 +1,13 @@
+- Now I get it
+
+- Register domain with godaddy-person
+- Point to the proper nameservers
+- On your Digital Ocean Control Panel, add a domain (record)
+- Create a new user (you'll be logged in as devbryce)
+- Create a new file in the /etc/nginx/conf.d/ with the proper name: /etc/nginx/conf.d/example.com.conf,
+ copy and paste the basic config from devbryce.com.conf and set a unique port for the app to listen to
+ (not 8080, but still localhost).
+- make sure the app is running.
+    - That is, write a node server with .listen({UNIQUE_PORT}) and then begin running it with pm2
+    - pm2 is easy -- just `pm2 start hello.js`
+    - you can check to see if the app is listening with `pm2 list`
