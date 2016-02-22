@@ -1,1 +1,10 @@
-Notes on various relevant topics:
+To blog about:
+
+- tips and things to know for debugging minified code in the browser
+- on monkey patching, typechecking, and fuck how hard typescript is a hassle
+- on webhooks, with an example
+- on angular 2 obscure things (look for questions on SO)
+    - DI stuff, like real basic like
+- on Mithril JS and why I prefer it to react
+- flexbox in 5 refactor notes
+- monkeyface.js and what I use it for
