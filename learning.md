@@ -1,4 +1,5 @@
 To blog about:
+- another push.
 - hello world webhook
 - tips and things to know for debugging minified code in the browser
 - on monkey patching, typechecking, and fuck how hard typescript is a hassle
